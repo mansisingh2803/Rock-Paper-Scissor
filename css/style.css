@@ -101,6 +101,13 @@ body{
         font-size: 110px;
 
     }
+    .choices{
+        display: grid;
+        grid-template-columns: repeat(3, 0.7fr);
+        grid-gap: 1.2rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
    
 }
 @media(max-width: 500px){
@@ -108,5 +115,11 @@ body{
         font-size: 80px;
 
     }
-    
+    .choices{
+        display: grid;
+        grid-template-columns: repeat(3, 0.5fr);
+        grid-gap: 0.3rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
 }
