@@ -109,7 +109,7 @@ body{
         text-align: center;
     }
 }
-@media(max-width: 280px){
+@media(max-width: 500px){
     .choice{
         font-size: 80px;
 
